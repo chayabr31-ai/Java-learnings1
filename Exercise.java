@@ -1,0 +1,32 @@
+import java.lang.System;
+import java.util.Scanner;
+class Exercise{
+    public static void main(String[] args) 
+        {
+            String name = "Chaya";
+            int age = 20;
+            float height = 5.5f;
+            double weight = 30.5;
+            System.out.println("Name: "+name);
+            System.out.println("Age: "+age);
+            System.out.println("Height: "+height);
+            System.out.println("Weight:"+weight);
+        }
+    }
+
+class Exercise2{
+    public static void main(String[] args)
+        {
+            int a = 15;
+            int b = 25;
+            int sum = a + b;
+            int difference = a - b;
+            int product = a * b;
+            double division = (double)a / b;
+            System.out.println("Sum:"+sum);
+            System.out.println("Difference:"+difference);
+            System.out.println("Product:"+product);
+            System.out.println("Division:"+division);
+            
+        }
+    }
